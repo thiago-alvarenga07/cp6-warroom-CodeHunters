@@ -22,32 +22,6 @@
 |Diego Antonio Silva Mendes | 565509|
 |Giovanni de Lela Anjos Costa | 563066|
 |Gabriel Hiro Nakamura | 562221|
-
-## 0. Setup do repositório (antes da 1ª aula; podem apagar esta seção depois)
-
-1. Um integrante cria o repo **público** no GitHub: `cp6-warroom-<nome-do-grupo>`
-   (ex.: `cp6-warroom-debugadores`), com um README qualquer
-2. Substituam o conteúdo do `README.md` por este template (no navegador, pelo próprio
-   GitHub, ou clonando):
-   ```bash
-   git clone https://github.com/<conta>/cp6-warroom-<nome-do-grupo>.git
-   cd cp6-warroom-<nome-do-grupo>
-   # substitua o conteúdo do README.md por este template e:
-   git add .
-   git commit -m "chore: ficha em branco do grupo"
-   git push
-   ```
-3. Postem o **link no Teams** (o mesmo link para todo o grupo)
-
-**Convenção de commits** (1 commit por rodada; relâmpagos podem ir junto com a
-rodada seguinte):
-
-```
-decisao: R1 - opcao C (<resumo da justificativa em uma frase>)
-decisao: R2 - opcao A (<resumo em uma frase>)
-pos-mortem: relatorio de incidente da madrugada
-```
-
 ---
 
 ## 📁 Dossiê técnico do FiapBank (MVP em produção)
@@ -100,6 +74,15 @@ segurança × faturamento × dívida). "Porque é mais seguro" não é justifica
 
 *(as decisões entram aqui, na ordem em que a madrugada as trouxer; placar inicial:
 🔥 7 · 💰 0 · 🧹 2)*
+## Rodada 1
+
+**Tipo:** (rodada 1) · **Voto:** ( C )
+
+**Justificativa:**
+
+Dentre todas as opções decidimos que a C é a ideal. A opção A não seria boa, pois o Hotflix não teria teste e remove o catch, que seria uma camada de segurança. Ou seja, seria muito arriscado; a opção B também não seria ideal, pois seria a opção que mais daria prejuízo financeiro; por fim, a opção D seria uma alternativa interessante, pois corrigiria esse bug, porém poderia voltar a uma versão com outros bugs.
+
+**Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 35 mil · 🧹 1
 
 ---
 
