@@ -104,6 +104,16 @@ O grupo não foi afetado pela história pois não escolheu a alternativa que lev
 
 **Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 35 mil · 🧹 1
 
+## Rodada 2: A injeção que derreteu o banco(21h02)
+
+**Tipo:** (rodada) · **Voto:** ( A )
+
+**Justificativa:**
+
+Dentre as opções decidimos que a solução padrão e mais eficaz seria a alternativa A, pois ela separa o código dos dados por meio do input binding, neutralizando o ataque na raiz.
+
+**Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 35 mil · 🧹 1
+
 ---
 
 ## 🔎 O caminho do MEU grupo (preencher na 3ª aula, quando o mapa for revelado)
