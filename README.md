@@ -74,13 +74,23 @@ segurança × faturamento × dívida). "Porque é mais seguro" não é justifica
 
 *(as decisões entram aqui, na ordem em que a madrugada as trouxer; placar inicial:
 🔥 7 · 💰 0 · 🧹 2)*
-## Rodada 1
+## Rodada 1: O saldo que virou negativo (19h12)
 
-**Tipo:** (rodada 1) · **Voto:** ( C )
+**Tipo:** (rodada) · **Voto:** ( C )
 
 **Justificativa:**
 
 Dentre todas as opções decidimos que a C é a ideal. A opção A não seria boa, pois o Hotflix não teria teste e remove o catch, que seria uma camada de segurança. Ou seja, seria muito arriscado; a opção B também não seria ideal, pois seria a opção que mais daria prejuízo financeiro; por fim, a opção D seria uma alternativa interessante, pois corrigiria esse bug, porém poderia voltar a uma versão com outros bugs.
+
+**Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 35 mil · 🧹 1
+
+## Evento relâmpago 1
+
+**Tipo:** (relâmpago) · **Voto:** ( - )
+
+**Justificativa:**
+
+O grupo não foi afetado pela história pois não escolheu a alternativa que levava para esse evento
 
 **Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 35 mil · 🧹 1
 
