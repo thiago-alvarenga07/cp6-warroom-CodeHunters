@@ -94,6 +94,16 @@ O grupo não foi afetado pela história pois não escolheu a alternativa que lev
 
 **Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 35 mil · 🧹 1
 
+## Evento relâmpago 2
+
+**Tipo:** (relâmpago) · **Voto:** ( - )
+
+**Justificativa:**
+
+O grupo não foi afetado pela história pois não escolheu a alternativa que levava para esse evento
+
+**Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 35 mil · 🧹 1
+
 ---
 
 ## 🔎 O caminho do MEU grupo (preencher na 3ª aula, quando o mapa for revelado)
