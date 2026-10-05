@@ -8,19 +8,20 @@
 > **Os incidentes da madrugada são revelados só em aula.** O título de cada registro
 > será **ditado pelo professor na hora**; ninguém se antecipe.
 
-**Grupo (nome da equipe plantonista):** ______________________________________
+**Grupo (nome da equipe plantonista):** CodeHunters
 
-**Turma:** ____________ **Repo:** `cp6-warroom-____________________`
+**Turma:** 2CCPG **Repo:** `cp6-warroom-CodeHunters`
 
 **Integrantes (nome + RM):**
 
 | Nome | RM |
 |---|---|
-| | |
-| | |
-| | |
-| | |
-| | |
+|Thiago Sobral de Alvarenga | 562695|
+|Pedro Miranda Campos Riato | 562117|
+|Israel Karacsony de Camargo Nunes | 563435|
+|Diego Antonio Silva Mendes | 565509|
+|Giovanni de Lela Anjos Costa | 563066|
+|Gabriel Hiro Nakamura | 562221|
 
 ## 0. Setup do repositório (antes da 1ª aula; podem apagar esta seção depois)
 
