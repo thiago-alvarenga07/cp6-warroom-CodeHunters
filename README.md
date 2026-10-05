@@ -114,6 +114,16 @@ Dentre as opções decidimos que a solução padrão e mais eficaz seria a alter
 
 **Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 35 mil · 🧹 1
 
+## Rodada 3: A noite das contas gêmeas(22h50)
+
+**Tipo:** (rodada) · **Voto:** ( C )
+
+**Justificativa:**
+
+Escolhemos a opção C pois ela permite identificar a origem e o impacto das duplicidades sem correr o risco de corromper ou alterar dados válidos. A partir da auditoria, pode-se definir a correção adequada e evitar decisões precipitadas.
+
+**Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 45 mil · 🧹 1
+
 ---
 
 ## 🔎 O caminho do MEU grupo (preencher na 3ª aula, quando o mapa for revelado)
