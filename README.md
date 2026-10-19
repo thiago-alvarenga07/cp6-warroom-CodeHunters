@@ -154,6 +154,16 @@ Escolhemos a alternativa B, pois com o builder com valores padrão, concentraria
 
 **Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 70 mil · 🧹 0
 
+## Evento relâmpago D: o teste verde que não testa nada (03h20)
+
+**Tipo:** (relâmpago) · **Voto:** ( A )
+
+**Justificativa:**
+
+Escolhemos a alternativa A, pois acreditamos ser a opção mais honesta e ser a única que realmente resolve o problema. Não escolhemos as demais, pois a B não tem segurança, deixando propício ao depósito quebrar e ninguém ver, já a C acaba retirando a única camada de segurança do sistema.
+
+**Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 70 mil · 🧹 0
+
 ---
 
 ## 🔎 O caminho do MEU grupo (preencher na 3ª aula, quando o mapa for revelado)
