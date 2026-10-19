@@ -124,6 +124,16 @@ Escolhemos a opção C pois ela permite identificar a origem e o impacto das dup
 
 **Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 45 mil · 🧹 1
 
+## Rodada 4: O comprovante que aponta pra pessoa errada (00h47)
+
+**Tipo:** (rodada) · **Voto:** ( B )
+
+**Justificativa:**
+
+Escolhemos a opção B, pois era a opção que mais transmitia transparência com o cliente. Não optamos pela alternativa A, pois o usuário só teria ciência que o erro foi corrigido após a realização de outro pagamento, na opção C, perderia muito tempo na comunicação com o consumidor, já na opção D, acreditamos que o problema apenas seria postergado.
+
+**Placar do grupo após esta decisão:** 🔥 9 · 💰 R$ 70 mil · 🧹 0
+
 ---
 
 ## 🔎 O caminho do MEU grupo (preencher na 3ª aula, quando o mapa for revelado)
