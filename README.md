@@ -173,6 +173,17 @@ Escolhemos a alternativa A, pois acreditamos ser a opção mais honesta e ser a 
 Escolhemos a alternativa A, pois é a única que cumpre o prazo sem perder a rastreabilidade. Como a janela fecha às 04h e a campanha abre às 08h sem exceções, então perder o deploy custaria muito no caso da B, já no C, esconde a falha no meio do ruído e normaliza deploy quebrado.
 
 **Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 70 mil · 🧹 1
+
+## Evento relâmpago E: "A taxa é 5 ou 50?" (05h58)
+
+**Tipo:** (relâmpago) · **Voto:** ( C )
+
+**Justificativa:**
+
+Escolhemos a alternativa C, pois é a única opção que não possui algum risco de perda ou prejuízo financeiro, caso escolhesse B ou A, sem olhar o código e o contrato, ou sem fazer um teste antes, estaria dependendo de sorte para não ter um prejuízo.
+
+**Placar do grupo após esta decisão:** 🔥 9 · 💰 R$ 70 mil · 🧹 0
+
 ---
 
 ## 🔎 O caminho do MEU grupo (preencher na 3ª aula, quando o mapa for revelado)
