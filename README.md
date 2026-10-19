@@ -144,6 +144,16 @@ Escolhemos a alternativa A, pois seria a opção mais rápida e objetiva para a 
 
 **Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 70 mil · 🧹 0
 
+## Evento relâmpago C: o cadastro com metade dos campos (02h20)
+
+**Tipo:** (relâmpago) · **Voto:** ( B )
+
+**Justificativa:**
+
+Escolhemos a alternativa B, pois com o builder com valores padrão, concentraria o default e validação no build, além de que é a única opção que não adicionaria construtores sobrecarregando os mesmos, e nem espalharia nulls pelo sistema.
+
+**Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 70 mil · 🧹 0
+
 ---
 
 ## 🔎 O caminho do MEU grupo (preencher na 3ª aula, quando o mapa for revelado)
