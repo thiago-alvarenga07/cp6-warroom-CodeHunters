@@ -134,6 +134,16 @@ Escolhemos a opção B, pois era a opção que mais transmitia transparência co
 
 **Placar do grupo após esta decisão:** 🔥 9 · 💰 R$ 70 mil · 🧹 0
 
+## Rodada 5:  A fábrica que devolve null (01h30)
+
+**Tipo:** (rodada) · **Voto:** ( A )
+
+**Justificativa:**
+
+Escolhemos a alternativa A, pois seria a opção mais rápida e objetiva para a solução do problema. Não optamos pela alternativa B, pois possui o risco de no futuro gerar outro problema ao cliente, a C, não escolhemos pois criaria outro problema a ser resolvido, já a D, acreditamos que não resolveria o problema e além disso o marketing da empresa seria prejudicado.
+
+**Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 70 mil · 🧹 0
+
 ---
 
 ## 🔎 O caminho do MEU grupo (preencher na 3ª aula, quando o mapa for revelado)
