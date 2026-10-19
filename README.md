@@ -182,7 +182,17 @@ Escolhemos a alternativa A, pois é a única que cumpre o prazo sem perder a ras
 
 Escolhemos a alternativa C, pois é a única opção que não possui algum risco de perda ou prejuízo financeiro, caso escolhesse B ou A, sem olhar o código e o contrato, ou sem fazer um teste antes, estaria dependendo de sorte para não ter um prejuízo.
 
-**Placar do grupo após esta decisão:** 🔥 9 · 💰 R$ 70 mil · 🧹 0
+**Placar do grupo após esta decisão:** 🔥 9 · 💰 R$ 70 mil · 🧹 1
+
+## Rodada 7: Go/No-Go da Black Friday (06h15)
+
+**Tipo:** (rodada) · **Voto:** ( B )
+
+**Justificativa:**
+
+Escolhemos a alternativa B, pois o bug mora no TransferenciaService (conta, taxa, extrato, saldo), então corrigir a causa e deixar a suíte verde custa só 2h de atraso, bem menos que erro financeiro em escala. Não optamos pela A pois abre sabendo que a TED cobra 10x e que o serviço é frágil, a C esconde um sintoma, e o PIX passa pelo mesmo serviço, já a D joga fora a campanha por um problema que se resolve em 2 horas.
+
+**Placar do grupo após esta decisão:** 🔥 10 · 💰 R$ 110 mil · 🧹 0
 
 ---
 
