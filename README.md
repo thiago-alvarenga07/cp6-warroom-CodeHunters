@@ -84,17 +84,7 @@ Dentre todas as opções decidimos que a C é a ideal. A opção A não seria bo
 
 **Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 35 mil · 🧹 1
 
-## Evento relâmpago 1
-
-**Tipo:** (relâmpago) · **Voto:** ( - )
-
-**Justificativa:**
-
-O grupo não foi afetado pela história pois não escolheu a alternativa que levava para esse evento
-
-**Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 35 mil · 🧹 1
-
-## Evento relâmpago 2
+## Evento relâmpago A: a busca que não acha ninguém(20h10)
 
 **Tipo:** (relâmpago) · **Voto:** ( - )
 
@@ -111,6 +101,16 @@ O grupo não foi afetado pela história pois não escolheu a alternativa que lev
 **Justificativa:**
 
 Dentre as opções decidimos que a solução padrão e mais eficaz seria a alternativa A, pois ela separa o código dos dados por meio do input binding, neutralizando o ataque na raiz.
+
+**Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 35 mil · 🧹 1
+
+## Evento relâmpago B: as conexões que não fecham(22h40)
+
+**Tipo:** (relâmpago) · **Voto:** ( - )
+
+**Justificativa:**
+
+O grupo não foi afetado pela história pois não escolheu a alternativa que levava para esse evento
 
 **Placar do grupo após esta decisão:** 🔥 8 · 💰 R$ 35 mil · 🧹 1
 
