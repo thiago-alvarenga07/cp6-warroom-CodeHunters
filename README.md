@@ -214,7 +214,6 @@ Uma linha por decisão registrada acima (usem os títulos ditados em aula):
 | R6 | @Disabled no teste e subir na janela | A | Sobe na janela. O teste fica @Disabled("conferir taxa com o gerente"): alarme desligado. A taxa de R$ 50 segue no ar |
 | RE | Reproduzir com um teste antes de responder | C | O teste dá evidência: a equipe entra no go/no-go sabendo da taxa |
 | R7 | Corrigir o que a noite revelou + suíte verde, abrir 2h atrasado | B | Ao revisar o serviço, o time enxerga a taxa 50 e conserta antes de abrir: as 2h doeram menos que a taxa doeria. |
-*(adicionem linhas conforme as decisões da madrugada)*
 
 ---
 
@@ -224,32 +223,28 @@ Uma linha por decisão registrada acima (usem os títulos ditados em aula):
 
 ## 1. Linha do tempo da madrugada
 
-_______________________________________________________________________________________
+Às 19h12, a equipe enfrentou um problema de saldo negativo e escolheu corrigir o código junto com a criação de um teste com assertThrows, protegendo a regra de negócio. Às 21h02, a equipe optou por utilizar PreparedStatement parametrizado para impedir ataques de SQL Injection. Às 22h50, decidiu auditar as contas duplicadas antes de alterar os dados, identificando extratos cruzados entre contas.
 
-_______________________________________________________________________________________
+Às 00h47, a equipe escolheu corrigir a gravação e reprocessar os extratos antigos, recuperando a integridade do histórico. Em seguida, corrigiu o comportamento da factory para rejeitar tipos inválidos e adotou o Builder com valores padrão para centralizar a validação. Durante a madrugada, também corrigiu os testes para garantir que verificassem o comportamento esperado.
 
-_______________________________________________________________________________________
+Às 03h45, a equipe decidiu desabilitar o teste que estava falhando para conseguir realizar o deploy dentro da janela, mantendo temporariamente o risco de uma taxa TED incorreta de R$ 50. Às 05h58, reproduziu o problema com um teste antes de responder. Finalmente, às 06h15, decidiu corrigir a causa do problema e garantir que a suíte estivesse verde, aceitando um atraso de duas horas para evitar prejuízos financeiros maiores.
 
 ## 2. Causa raiz de 2 incidentes (aula + mecanismo técnico)
 
-**Incidente 1:** _______________________________________________
+**Incidente 1:** RODADA 1: O saldo que virou negativo (19h12)
 
-Aula/mecanismo:
+Aula/mecanismo: Tratamento de exceções e testes automatizados com JUnit, especialmente assertThrows. A causa estava na ausência de uma proteção confiável para a regra de negócio que impede o saldo de ficar negativo. A solução foi corrigir a lógica e criar um teste que verifica se uma transferência sem saldo é recusada. O trade-off foi gastar mais 40 minutos para aumentar a confiabilidade e evitar prejuízos aos clientes.
 
-_______________________________________________________________________________________
+**Incidente 2:** RODADA 2: A injeção que derreteu o banco (21h02)
 
-**Incidente 2:** _______________________________________________
-
-Aula/mecanismo:
-
-_______________________________________________________________________________________
+Aula/mecanismo: Acesso seguro ao banco de dados com PreparedStatement e consultas parametrizadas. A vulnerabilidade ocorre quando entradas do usuário são concatenadas diretamente ao SQL, permitindo que sejam interpretadas como comandos. A parametrização separa os dados da instrução SQL e impede essa forma de injeção. A correção exigiu aproximadamente 40 minutos, um custo pequeno em comparação com os riscos de exposição de dados e comprometimento do banco.
 
 ## 3. O que faríamos diferente (2 rodadas + por quê)
 
-_______________________________________________________________________________________
+Na Rodada 6, não desabilitaríamos o teste com @Disabled apenas para cumprir a janela de deploy. Embora essa decisão permitisse publicar a versão no prazo, ela desligou um alarme importante e manteve no ar a taxa TED incorreta de R$ 50. Priorizaríamos corrigir a causa e manter a suíte de testes válida, mesmo com atraso, para evitar cobranças indevidas em escala.
 
-_______________________________________________________________________________________
+Na Rodada 3, manteríamos a auditoria antes de corrigir as contas duplicadas, mas buscaríamos automatizar a identificação de duplicidades e cruzamentos de extratos para reduzir o tempo de diagnóstico. A auditoria protege os dados válidos contra alterações precipitadas, enquanto uma investigação mais eficiente poderia diminuir o tempo até a correção definitiva.
 
 ## 4. A maior lição da equipe
 
-_______________________________________________________________________________________
+A maior lição da equipe foi que na maioria das vezes nunca terá uma resposta 100% correta, mas sim uma que cause menos problemas para empresa, aprendemos também que na maioria das vezes a melhor decisão é priorizar a correção do problema, caso a resolução faça a equipe perder muito tempo, gerando muita consequência a melhor decisão seria voltar o código para uma versão anterior que ainda estava funcionando e resolver o problema logo em seguida e para evitar que uma warroom seja causada, devemos sempre realizar o máximo de testes possíveis para sempre evitar que aconteçam.
