@@ -202,10 +202,18 @@ Uma linha por decisão registrada acima (usem os títulos ditados em aula):
 
 | # | Decisão | Nossa letra | Consequência que ELA teria tido |
 |---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
-
+| R1 | Corrigir + escrever o teste (assertThrows) antes de subir | C | Demora 40 min a mais (8 clientes afetados no total), mas sobe com o assertThrows protegendo a invariante: a suíte ganha um teste honesto. |
+| RA | Não participamos, pois escolhemos outra alternativa | - | - |
+| R2 | PreparedStatement parameterizado | A | Parâmetros vinculados matam a injeção em ~40 min de madrugada |
+| RB | Não participamos, pois escolhemos outra alternativa | - | - |
+| R3 | Auditar as duplicatas antes de mexer no código | C | Antes de mexer: quantos clientes já são gêmeos? A auditoria leva a noite e revela extratos cruzados entre contas duplicadas; o fix só entra às 04h |
+| R4 | Corrigir + reprocessar os extratos antigos | B | Corrige a gravação E reprocessa o histórico (~2h): os comprovantes já emitidos voltam certos; integridade total |
+| R5 | Fail-fast: exceção clara na factory (tipo inválido) | A | A factory rejeita na hora com "Tipo de conta inválido: UNIVERSITARIA": o erro nasce e morre no mesmo lugar (~30 min) |
+| RC | Builder com valores padrão | B | O Builder concentra defaults e validação no build() |
+| RD | Adicionar o assert que falta (assertEquals/assertThrows) | A | 10 minutos e a suíte fica honesta |
+| R6 | @Disabled no teste e subir na janela | A | Sobe na janela. O teste fica @Disabled("conferir taxa com o gerente"): alarme desligado. A taxa de R$ 50 segue no ar |
+| RE | Reproduzir com um teste antes de responder | C | O teste dá evidência: a equipe entra no go/no-go sabendo da taxa |
+| R7 | Corrigir o que a noite revelou + suíte verde, abrir 2h atrasado | B | Ao revisar o serviço, o time enxerga a taxa 50 e conserta antes de abrir: as 2h doeram menos que a taxa doeria. |
 *(adicionem linhas conforme as decisões da madrugada)*
 
 ---
